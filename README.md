@@ -19,8 +19,8 @@ It is split into three main pages:
 
 ### Responsiveness
 
-I've made a reasonable attempt at responsive design, so the website should be at least legible on mobile albeit not the nicest. With Tailwind, responsive specifications were super easy. Bless this library.
+I've made a reasonable attempt at responsive design so the website should be at least legible on mobile, albeit not the nicest. With Tailwind, responsive specifications were super easy. Bless this library.
 
 ### Future
 
-Once I have more time, I'd love to make this website more perfectly responsive, hold more content (pop-ups?), and of course, prettier. I've only scraped the surface of what Framer-Motion can do for a developer, and I'll certainly be exploring more of it.
+When I have more time, I'd love to make this website more perfectly responsive, hold more content (pop-ups?), and of course, prettier. I've only scraped the surface of what Framer-Motion can do for a developer, and I'll certainly be exploring more of it.
