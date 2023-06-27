@@ -17,7 +17,7 @@ function Experiences() {
                 transition={{ duration: 1, type: "spring", bounce: 0.6 }}
             >
                 <AnimatedText
-                styling="text-6xl pr-8 font-quicksand font-bold"
+                styling="pr-8 font-quicksand font-bold text-2xl md:text-4xl lg:text-6xl"
                 text='Experiences and Skills'/>
             </motion.h3>
 
@@ -33,7 +33,7 @@ function Experiences() {
                 transition={{ type: 'tween', duration: 0.5 }}
             />
 
-            <div className="w-2/3 m-auto pb-10">
+            <div className="w-5/6 lg:w-2/3 m-auto pb-10">
                 <ExpCard
                     title="Internal Lead (Vice-President), GDSC NUS"
                     logo="gdsc-logo.png"
@@ -78,6 +78,10 @@ function Experiences() {
                     <Skill
                         imagePath="powershell-logo.png"
                         name="PowerShell"
+                    />
+                    <Skill
+                        imagePath="vmware-logo.png"
+                        name="VMWare"
                     />
                 </ExpCard>
 

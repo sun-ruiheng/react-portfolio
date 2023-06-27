@@ -16,7 +16,7 @@ function Contact() {
                     transition={{ duration: 1, type: "spring", bounce: 0.6 }}
                 >
                     <AnimatedText
-                    styling="text-6xl pr-8 font-quicksand font-bold"
+                    styling="text-2xl pr-8 md:text-4xl lg:text-6xl font-quicksand font-bold"
                     text="Let's get in touch!"/>
                 </motion.h3>
                 <motion.hr 

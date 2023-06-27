@@ -7,7 +7,7 @@ function MyFace(props) {
   return (
     <motion.img 
       src={require('../../images/myface.jpg')} 
-      className="rounded-full w-1/2 h-auto"
+      className="rounded-full h-1/2 lg:w-1/2 lg:h-auto"
       whileHover={{ scale: 1.1, rotate: 30 }}
       initial={{ y: -80 }}
       animate={{ y: 0 }}

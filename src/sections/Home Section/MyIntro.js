@@ -11,8 +11,8 @@ function MyIntro(props) {
     >
       <motion.h1 
         className={props.lightMode
-          ? "text-black text-5xl flex flex-row justify-left font-bold pr-3 pb-3"
-          : "text-white text-5xl flex flex-row justify-left font-bold pr-3 pb-3"
+          ? "text-black text-3xl md:text-4xl lg:text-5xl flex flex-row justify-left font-bold pr-3 pb-3"
+          : "text-white text-3xl md:text-4xl lg:text-5xl flex flex-row justify-left font-bold pr-3 pb-3"
         }
         animate={{ y: [-15, 0, 0, -15] }}
         transition={{ repeat: Infinity, duration: 2, delay: 2 }}
@@ -44,8 +44,8 @@ function MyIntro(props) {
       >
         <AnimatedText
           styling={props.lightMode
-            ? "text-2xl text-gray-700 pr-8"
-            : "text-2xl text-gray-300 pr-8"}
+            ? "text-lg md:text-xl lg:text-2xl text-gray-700 pr-8"
+            : "text-lg md:text-xl lg:text-2xl text-gray-300 pr-8"}
           text = {props.tagline}/>
       </motion.h3>
     </motion.div>      

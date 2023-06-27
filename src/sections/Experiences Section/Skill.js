@@ -6,7 +6,7 @@ function Skill(props) {
 
     return (
         <motion.div
-            className="w-16 h-16 flex flex-col justify-normal align-middle mx-3"
+            className="w-10 h-10 md:h-16 md:w-16 flex flex-col justify-normal align-middle mx-3"
             onHoverStart={() => {
                 setHover(!hover);
             }}
@@ -25,7 +25,7 @@ function Skill(props) {
                 transition={{ type: 'tween', duration: 0.15 }}
             />
             <motion.span 
-                className='font-mono font-normal text-xs m-auto' 
+                className='font-mono font-normal text-[0.5rem] md:text-xs m-auto' 
                 initial={{ opacity: 0 }}
                 animate={ hover
                     ? { opacity: 1 }

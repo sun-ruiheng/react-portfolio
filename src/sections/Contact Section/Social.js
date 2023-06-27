@@ -7,7 +7,7 @@ function Social(props) {
 
     return (
         <motion.a
-            className='h-1/6 w-4/5 flex flex-row items-center justify-left m-auto text-2xl font-mono'
+            className='h-1/6 w-5/6 lg:w-4/5 flex flex-row items-center justify-left m-auto text-m md:text-lg lg:text-2xl font-mono'
             href={props.url}
             target="_blank"
             onHoverStart={() => setHovering(!hovering)}
@@ -32,8 +32,8 @@ function Social(props) {
                 <span className="pr-4">{props.text}</span>
                 <motion.span 
                     class={hovering
-                        ? "text-3xl un2"
-                        : "text-3xl un1"
+                        ? "un2 text-m md:text-lg lg:text-3xl"
+                        : "un1 text-m md:text-lg lg:text-3xl"
                     }
                     animate={hovering
                         ? { color: "red" }
