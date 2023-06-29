@@ -35,11 +35,10 @@ function Experiences() {
 
             <div className="w-5/6 lg:w-2/3 m-auto pb-10">
                 <ExpCard
-                    title="Internal Lead (Vice-President), GDSC NUS"
+                    title="Tech Assoc. & Internal Lead (Vice-President), GDSC NUS, 2022 - 2024"
                     logo="gdsc-logo.png"
                     description="Club website building & management, teaching of technical workshops"
                 >
-                    
                     <Skill
                         imagePath="logo192.png"
                         name="React"
@@ -49,7 +48,7 @@ function Experiences() {
                         name="JavaScript"
                     />
                     <Skill
-                        imagePath="ts-logo.png"
+                        imagePath="typescript-logo.png"
                         name="TypeScript"
                     />
                     <Skill
@@ -110,10 +109,8 @@ function Experiences() {
                         imagePath="json-logo.png"
                         name="JSON"
                     />
-
-
-                    
                 </ExpCard>
+
                 <ExpCard
                     title="Project Management Internship, DSTA, Early 2020"
                     logo="dsta-logo.jpeg"
@@ -134,6 +131,29 @@ function Experiences() {
                     <Skill
                         imagePath="androidstudio-logo.png"
                         name="Android"
+                    />
+                </ExpCard>
+
+                <ExpCard
+                    title="Independent"
+                    logo="programmer-pic.webp"
+                    description="Some other frameworks and libraries I've worked with"
+                >
+                    <Skill
+                        imagePath="nodejs-logo.png"
+                        name="Node.JS"
+                    />
+                    <Skill
+                        imagePath="expressjs-logo.png"
+                        name="Express.JS"
+                    />
+                    <Skill
+                        imagePath="phaser-logo.png"
+                        name="Phaser.JS"
+                    />
+                    <Skill
+                        imagePath="pygame-logo.png"
+                        name="Pygame"
                     />
                 </ExpCard>
             </div>

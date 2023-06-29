@@ -16,7 +16,7 @@ function Skill(props) {
         >
             <motion.img 
                 src={props.imagePath}
-                className='rounded-full w-4/5 h-auto m-auto'
+                className='w-4/5 h-auto m-auto'
                 initial={{ opacity: 0.5 }}
                 animate={ hover
                     ? { opacity: 1 }

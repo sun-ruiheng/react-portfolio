@@ -29,17 +29,17 @@ function ExpCard(props) {
                 className="flex flex-col justify-evenly text-myoffwhite font-mono p-3"
             >
                 <h2
-                    className='font-bold text-sm md:text-lg lg:text-xl py-2'
+                    className='font-bold text-sm md:text-md lg:text-lg xl:text-xl py-2'
                 >
                     {props.title}
                 </h2>
                 <h3
-                    className='font-normal text-xs lg:text-lg'
+                    className='font-normal text-xs md:text-sm lg:text-m xl:text-lg'
                 >
                     {props.description}
                 </h3>
                 <motion.div
-                    className='flex flex-wrap flex-row justify-start align-middle pt-1 shrink'
+                    className='flex flex-wrap flex-row justify-start align-middle pt-1'
                 >
                     {props.children}
                 </motion.div>
