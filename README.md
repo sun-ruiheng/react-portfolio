@@ -14,8 +14,8 @@ This site is built with the aim of showcasing some of my skills and experiences,
 It is split into three main pages:
 
 1. Landing screen —— to say hello!
-2. Experiences and skills —— I categorized my familiar skills into certain key experiences. I decided to forgo my little personal projects as they aren't all that impressive, but they can be viewed on my legacy website. Visit that if you wish...
-3. Contact page —— in case you want to hire me at your super cool company.
+2. Experiences and skills —— I categorized my familiar skills into certain key experiences. I decided to forgo my little personal projects as they aren't too impressive, but they can be viewed on my legacy website. Visit that if you wish...
+3. Contact page —— so you can hire me at your super cool company.
 
 ### Responsiveness
 
