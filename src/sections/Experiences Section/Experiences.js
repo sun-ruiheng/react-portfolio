@@ -140,12 +140,16 @@ function Experiences() {
                     description="Some other frameworks and libraries I've worked with"
                 >
                     <Skill
-                        imagePath="nodejs-logo.png"
-                        name="Node.JS"
+                        imagePath="mongodb-logo.png"
+                        name="MongoDB"
                     />
                     <Skill
                         imagePath="expressjs-logo.png"
                         name="Express.JS"
+                    />
+                    <Skill
+                        imagePath="nodejs-logo.png"
+                        name="Node.JS"
                     />
                     <Skill
                         imagePath="phaser-logo.png"
