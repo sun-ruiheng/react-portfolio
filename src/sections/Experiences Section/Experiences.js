@@ -105,10 +105,6 @@ function Experiences() {
                         imagePath="whoosh-logo.png"
                         name="Whoosh"
                     />
-                    <Skill
-                        imagePath="json-logo.png"
-                        name="JSON"
-                    />
                 </ExpCard>
 
                 <ExpCard
