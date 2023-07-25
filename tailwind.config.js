@@ -9,7 +9,8 @@ module.exports = {
       'myoffwhite': '#ececec',
       'mycyan': '#9fd3c7',
       'myblue': '#385170',
-      'mydarkblue': '#142d4c'
+      'mydarkblue': '#142d4c',
+      'coolerblue': '#073333'
       },
       fontFamily: {
         'poppins': ['Poppins', 'sans-serif'],
