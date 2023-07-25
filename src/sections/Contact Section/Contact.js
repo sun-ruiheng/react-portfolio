@@ -36,7 +36,7 @@ function Contact() {
                 className="flex flex-col justify-evenly align-middle m-auto h-2/3 w-2/3 rounded-xl bg-gradient-to-b from-emerald-100 to-mycyan"
                 initial={{ scale: 0 }}
                 whileInView={{ scale: 1 }}
-                whileHover={{ scale: 1.1 }}
+                whileHover={{ scale: 1.05 }}
                 transition={{ duration: 0.8, type: "spring", bounce: 0.3 }}
             >
                 <Social 
